@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Example1",
+      "email": "example1@example.com",
+      "password": "password"
+    },
+    {
+      "id": 1,
+      "name": "Example2",
+      "email": "example2@example.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "name": "Example3",
+      "email": "example3@example.com",
+      "password": "password"
+    }
+  ],
+  "albums": [
+    {
+      "id": 0,
+      "name": "Jar of Flies",
+      "author": "Alice in Chains",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/715jk3EdIVL.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Wish You Were Here",
+      "author": "Pink Floyd",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/810CGm6%2BGbL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Houses Of The Holy",
+      "author": "Led Zeppelin",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/8149D4kJ8oL._AC_SL1232_.jpg"
+    }
+  ],
+  "songs": [
+    {
+      "id": 0,
+      "name": "Rotten Apple",
+      "duration": "6:58",
+      "albumId": 0
+    },
+    {
+      "id": 1,
+      "name": "Nutshell",
+      "duration": "4:19",
+      "albumId": 0
+    },
+    {
+      "id": 2,
+      "name": "I Stay Away",
+      "duration": "4:14",
+      "albumId": 0
+    },
+    {
+      "id": 3,
+      "name": "No Excuses",
+      "duration": "4:15",
+      "albumId": 0
+    },
+    {
+      "id": 4,
+      "name": "Whale & Wasp",
+      "duration": "2:37",
+      "albumId": 0
+    },
+    {
+      "id": 5,
+      "name": "Don't Follow",
+      "duration": "4:22",
+      "albumId": 0
+    },
+    {
+      "id": 6,
+      "name": "Swing on This",
+      "duration": "4:04",
+      "albumId": 0
+    },
+    {
+      "id": 7,
+      "name": "Shine On You Crazy Diamond (Pts. 1-5)",
+      "duration": "13:31",
+      "albumId": 1
+    },
+    {
+      "id": 8,
+      "name": "Welcome To The Machine",
+      "duration": "7:31",
+      "albumId": 1
+    },
+    {
+      "id": 9,
+      "name": "Have A Cigar",
+      "duration": "5:07",
+      "albumId": 1
+    },
+    {
+      "id": 10,
+      "name": "Wish You Were Here",
+      "duration": "5:35",
+      "albumId": 1
+    },
+    {
+      "id": 11,
+      "name": "Shine On You Crazy Diamond (Pts. 6-9)",
+      "duration": "12:27",
+      "albumId": 1
+    },
+    {
+      "id": 12,
+      "name": "The Song Remains The Same",
+      "duration": "5:29",
+      "albumId": 2
+    },
+    {
+      "id": 13,
+      "name": "The Rain Song",
+      "duration": "7:39",
+      "albumId": 2
+    },
+    {
+      "id": 14,
+      "name": "Over The Hills And Far Away",
+      "duration": "4:50",
+      "albumId": 2
+    },
+    {
+      "id": 15,
+      "name": "The Crunge",
+      "duration": "3:17",
+      "albumId": 2
+    },
+    {
+      "id": 16,
+      "name": "Dancing Days",
+      "duration": "3:43",
+      "albumId": 2
+    },
+    {
+      "id": 17,
+      "name": "Shine On You Crazy Diamond (Pts. 6-9)",
+      "duration": "12:27",
+      "albumId": 2
+    },
+    {
+      "id": 18,
+      "name": "D'yer Mak'er",
+      "duration": "4:22",
+      "albumId": 2
+    },
+    {
+      "id": 19,
+      "name": "No Quarter",
+      "duration": "7:02",
+      "albumId": 2
+    }
+  ]
+}

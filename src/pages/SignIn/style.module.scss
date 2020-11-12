@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.error {
+  padding: 0.1rem 1rem;
+  border-radius: 10px;
+  background: #f002;
+  color: #e00;
+}
+.success {
+  padding: 0.1rem 1rem;
+  border-radius: 10px;
+  background: #0f02;
+  color: #00c400;
+}
+
+.tip {
+  border-radius: 10px;
+  margin-top: 2rem;
+  background: #0077ff22;
+  color: #0064d6;
+  padding: 1rem;
+}

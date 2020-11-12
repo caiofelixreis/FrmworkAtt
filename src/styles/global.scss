@@ -1,0 +1,41 @@
+*,
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: {
+    family: Poppins, sans-serif;
+  }
+}
+
+@mixin format {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: all 250ms ease;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+}
+
+input {
+  @include format;
+  border: 2px solid #0003;
+  &:focus {
+    border-color: #000;
+  }
+}
+
+button {
+  @include format;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
