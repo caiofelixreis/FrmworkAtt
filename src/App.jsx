@@ -1,17 +1,17 @@
 import React from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import SignIn from "./pages/SignIn";
-import AlbumDetail from "./pages/AlbumDetail";
+import Principal from "./Paginas/Principal";
+import Entrar from "./Paginas/Entrar";
+import Detalhe from "./Paginas/Detalhe";
 import "./styles/global.scss";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-  const isLogin = localStorage.getItem("token");
+  const logado = localStorage.getItem("token");
   return (
     <Route
       {...rest}
       render={(props) =>
-        isLogin ? <Component {...props} /> : <Redirect to="/signin" />
+        logado ? <Component {...props} /> : <Redirect to="/entrar" />
       }
     />
   );
@@ -21,9 +21,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <PrivateRoute path="/" component={Home} exact />
-        <Route path="/signin" component={SignIn} exact />
-        <PrivateRoute path="/:id" component={AlbumDetail} exact />
+        <PrivateRoute path="/" component={Principal} exact />
+        <Route path="/entrar" component={Entrar} exact />
+        <PrivateRoute path="/:id" component={Detalhe} exact />
       </Switch>
     </BrowserRouter>
   );

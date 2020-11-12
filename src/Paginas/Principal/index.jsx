@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { albums } from "../../database.json";
 import styles from "./style.module.scss";
 
-const Home = () => {
+const Principal = () => {
   return (
     <div className={styles.container}>
       <h1>Albums</h1>
@@ -26,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Principal;

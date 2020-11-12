@@ -3,7 +3,7 @@ import authenticate from "../../services/authenticate";
 import styles from "./style.module.scss";
 import { useHistory } from "react-router-dom";
 
-const SignIn = () => {
+const Entrar = () => {
   const [form, setForm] = useState({
     email: "",
     password: "",
@@ -52,4 +52,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Entrar;

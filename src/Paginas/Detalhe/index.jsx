@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
-import database from "../../database.json";
+import banco from "../../banco.json";
 import { useParams } from "react-router-dom";
 import styles from "./style.module.scss";
 
-const AlbumDetail = () => {
+const Detalhe = () => {
   const { id } = useParams();
-  const [songs, setSongs] = useState([]);
+  const [sons, setSons] = useState([]);
   const [album, setAlbum] = useState(null);
 
   useEffect(() => {
-    setSongs(database.songs.filter((song) => song.albumId === +id));
-    setAlbum(database.albums.find((album) => album.id === +id));
+    setSons(banco.sons.filter((song) => song.albumId === +id));
+    setAlbum(banco.albums.find((album) => album.id === +id));
   }, [id]);
 
   return (
     <div className={styles.container}>
-      {album && songs && (
+      {album && sons && (
         <div>
           <header>
             <h1>{album.name}</h1>
@@ -25,7 +25,7 @@ const AlbumDetail = () => {
           <main>
             <h1>Músicas</h1>
             <ul>
-              {songs.map((song) => (
+              {sons.map((song) => (
                 <li>
                   <b>{song.name}</b>
                   <b>{song.duration}</b>
@@ -39,4 +39,4 @@ const AlbumDetail = () => {
   );
 };
 
-export default AlbumDetail;
+export default Detalhe;
