@@ -1,3 +1,2 @@
 # Atividade de Framework
-
-<img src="./public/example.png">
+![alt text](https://github.com/Thumendes/atividade_framework/blob/master/public/image.jpg?raw=true)
